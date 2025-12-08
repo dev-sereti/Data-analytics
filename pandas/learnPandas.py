@@ -18,3 +18,5 @@ import pandas as pd
 
 
 #Load Files Into a DataFrame
+
+data = pd.read_csv('data.csv')
