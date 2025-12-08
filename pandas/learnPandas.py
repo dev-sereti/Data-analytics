@@ -1,4 +1,7 @@
 import pandas as pd
+import os
+
+print(os.getcwd())
 
 # #Series (1D)
 # numberPlate = ["KCA203J","KDA253U","KBC678D"]
@@ -19,7 +22,7 @@ import pandas as pd
 
 #Load Files Into a DataFrame
 
-data = pd.read_csv('data.csv')
+# data = pd.read_csv('data.csv')
 
-# Read CSV Files
-print(data.to_string)
+# # Read CSV Files
+# print(data.to_string)
