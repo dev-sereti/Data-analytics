@@ -13,4 +13,7 @@ dataset = {
     'plateNumbers':["KCA203J","KDA253U","KBC678D"]
 }
 carData = pd.DataFrame(dataset, index = ["1","2","3"])
-print(carData)
+# print(carData)
+print(carData.loc[3])
+
+
