@@ -22,4 +22,4 @@ import pandas as pd
 data = pd.read_csv('data.csv')
 
 # Read CSV Files
-
+print(data.to_string)
