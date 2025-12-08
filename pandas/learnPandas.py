@@ -30,3 +30,5 @@ print(os.getcwd())
 # pd.options.display.max_rows
 
 #Pandas Read JSON
+
+pd.read_json(r"C:\Users\VF3535\Documents\Analytics\pandas\data.json")
