@@ -32,4 +32,4 @@ print(os.getcwd())
 #Pandas Read JSON
 
 data = pd.read_json(r"C:\Users\VF3535\Documents\Analytics\pandas\data.json")
-print()
+print(data)
