@@ -26,3 +26,5 @@ data = pd.read_csv(r"C:\Users\VF3535\Documents\Analytics\pandas\data.csv")
 
 # # Read CSV Files
 print(data)
+
+pd.options.display.max_rows
