@@ -22,9 +22,11 @@ print(os.getcwd())
 
 #Load Files Into a DataFrame
 
-data = pd.read_csv(r"C:\Users\VF3535\Documents\Analytics\pandas\data.csv")
+# data = pd.read_csv(r"C:\Users\VF3535\Documents\Analytics\pandas\data.csv")
 
-# # Read CSV Files
-print(data)
+# # # Read CSV Files
+# print(data)
 
-pd.options.display.max_rows
+# pd.options.display.max_rows
+
+#Pandas Read JSON
