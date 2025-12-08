@@ -8,7 +8,7 @@ print (availablePlates[2])
 
 # dataset = {
 #     'carModels': ["Ford","BMW","Ford"],
-#     'plateNumber':["KCA203J","KDA253U","KBC678D"]
+#     'plateNumbers':["KCA203J","KDA253U","KBC678D"]
 # }
 
 # carData = pd.DataFrame(dataset)
