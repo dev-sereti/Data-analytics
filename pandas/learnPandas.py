@@ -6,4 +6,5 @@ data.dropna(inplace=True)
 print(data.to_string)
 
 #Replace Empty Values
-data.fillna(130, inplace=True)
+# data.fillna(130, inplace=True)
+data.fillna({"Calories": 130}, inplace=True)
