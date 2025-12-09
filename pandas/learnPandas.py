@@ -22,4 +22,5 @@ patientData = pd.DataFrame({
 
 print(patientData.dtypes)
 patientData['Date'] = pd.to_datetime(patientData['Date'], format='%y%m%d')
+print("\nAfter Conversion:")
 print(patientData.dtypes)
