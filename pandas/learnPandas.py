@@ -12,3 +12,5 @@ newData = data["Calories"].median()
 data.fillna({"Calories":newData}, inplace = True)
 
 # Mode
+newData = data["Calories"].mode()
+data.fillna({"Calories":newData}, inplace = True)
