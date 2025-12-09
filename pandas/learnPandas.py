@@ -12,5 +12,5 @@ data = data.set_index('Date')
 # plot
 ax = data['Calories'].plot(title='Calories over time', xlabel='Date', ylabel='Calories')
 
-# show the plot window (important in scripts)
+# show the plot window
 plt.show()
