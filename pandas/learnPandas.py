@@ -8,7 +8,7 @@ data = pd.DataFrame({
 })
 print("Before Conversion:")
 print(data.info())
-# df['Date'] = pd.to_datetime(df['Date'])
+data['Date'] = pd.to_datetime(data['Date'])
 
 # print("\nAfter Conversion:")
 # print(df.info())
