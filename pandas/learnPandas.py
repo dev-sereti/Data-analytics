@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Remove Rows
-data = pd.read_csv(r"C:\Users\VF3535\Documents\Analytics\pandas\data.csv")
+# data = pd.read_csv(r"C:\Users\VF3535\Documents\Analytics\pandas\data.csv")
 
 # #Mean
 # newData = data["Calories"].mean()
@@ -17,3 +17,4 @@ data = pd.read_csv(r"C:\Users\VF3535\Documents\Analytics\pandas\data.csv")
 
 
 # Pandas - Cleaning Data of Wrong Format
+# data['Date'] = pd.to_datetime(data['Date'], format='mixed')
