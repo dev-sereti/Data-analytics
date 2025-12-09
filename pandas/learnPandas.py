@@ -10,5 +10,5 @@ print("Before Conversion:")
 print(data.info())
 data['Date'] = pd.to_datetime(data['Date'])
 
-# print("\nAfter Conversion:")
-# print(df.info())
+print("\nAfter Conversion:")
+print(data.info())
