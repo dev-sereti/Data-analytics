@@ -1,7 +1,5 @@
 #NumPy 
 import numpy as np
 
-#Create an array
-ageArray = np.array([30,92,64,43,46])
-print(ageArray)
-print(type(ageArray))
+arr = np.array([[1,2,3,4,5], [6,7,8,9,10]])
+print(arr[0,1])
