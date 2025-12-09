@@ -12,3 +12,10 @@ data['Date'] = pd.to_datetime(data['Date'])
 
 print("\nAfter Conversion:")
 print(data.info())
+
+
+#Converting from 'yymmdd' Format
+patientData = pd.DataFrame({
+    'Date': ['200712', '200714', '200716', '200719'],
+    'Patients': [50000, 51000, 51500, 53000]
+})
