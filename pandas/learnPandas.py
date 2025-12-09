@@ -19,3 +19,5 @@ patientData = pd.DataFrame({
     'Date': ['200712', '200714', '200716', '200719'],
     'Patients': [50000, 51000, 51500, 53000]
 })
+
+print(patientData.dtypes)
