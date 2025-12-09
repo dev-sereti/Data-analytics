@@ -1,6 +1,7 @@
 import pandas as pd
-
-# data = pd.read_csv(r"C:\Users\VF3535\Documents\Analytics\pandas\data.csv")
+data = pd.read_csv(r"C:\Users\VF3535\Documents\Analytics\pandas\data.csv")
+#Replacing Values
+data.loc[7,'Duration'] = 45
 # data = pd.DataFrame({
 #     'Date': ['11/8/2011', '04/23/2008', '10/2/2019'],
 #     'Event': ['Music', 'Poetry', 'Theatre'],
