@@ -9,8 +9,8 @@ data = pd.read_csv(
     parse_dates=["order_date", "ship_date", "signup_date", "last_login"]
 )
 
-print(data.shape)
-print(data.dtypes)
+# print(data.shape)
+# print(data.dtypes)
 
 
 
