@@ -20,4 +20,4 @@ data_orders = data.drop_duplicates(subset=["order_id"])
 
 
 # Handle missing ages: fill with median by gender
-data_orders["customer_age"] = data_orders.groupby("gender")
+data_orders["customer_age"] = data_orders.groupby("gender")["customer_age"].transform(lambda s:s.fillna(s.median))
