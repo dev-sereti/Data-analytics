@@ -12,4 +12,4 @@ data = pd.read_csv(
 # print(data.shape)
 # print(data.dtypes)
 
-print (data.head (20))
+# print (data.head (20))
