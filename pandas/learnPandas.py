@@ -13,3 +13,5 @@ data = pd.read_csv(
 # print(data.dtypes)
 
 # print (data.head (20))
+
+remove_data_duplicates = data.drop_duplicates ()
