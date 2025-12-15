@@ -3,9 +3,9 @@
 import pandas as pd
 
 data = pd.read_csv(
-    r"C:\Users\VF3535\Documents\Analytics\sample_retail_transactions_dataset.csv",
-    parse_dates=["order_dates", "ship_date", "signup_date", "last_login"]
+    r"C:\Users\VF3535\Documents\Analytics\pandas\sample_retail_transactions_dataset.csv"
 )
 
-print(data.shape)
+print(data.columns.tolist())
+
 
