@@ -1,6 +1,7 @@
 #Numpy
 import numpy as np
-# Slicing 2-D Arrays
+# Slicing 2-D Array
+
 arr = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])
 
-print(arr[0:1, 1:4])
+print(arr[0:2, 2])
