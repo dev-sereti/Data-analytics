@@ -6,3 +6,6 @@ newData = data.copy()
 
 #Make changes to original array
 data[4] = 23
+
+print(data)
+print(newData)
