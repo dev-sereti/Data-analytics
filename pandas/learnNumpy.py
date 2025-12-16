@@ -1,14 +1,7 @@
 # Copy and View in Numpy
 import numpy as np
+# import numpy as np
 
-data = np.array([1,1,1,2,3,3,4,4,8,])
-newData = data.view()
+arr = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
 
-#Make changes to original array
-data[4] = 23
-
-print(data)
-print(newData)
-
-newData[3] = 45
-print(data)
+print(arr.shape)
