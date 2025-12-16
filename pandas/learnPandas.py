@@ -13,8 +13,8 @@ data = pd.read_csv(
 print (data.head (20))
 
 remove_data_duplicates = data.drop_duplicates ()
-#Drop duplicated orders
-data_orders = data.drop_duplicates(subset=["order_id"])
+# #Drop duplicated orders
+# data_orders = data.drop_duplicates(subset=["order_id"])
 
 # Handle missing ages: fill with median by gender
 data_orders.loc[:, "customer_age"] = (
