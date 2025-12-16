@@ -9,3 +9,6 @@ data[4] = 23
 
 print(data)
 print(newData)
+
+newData[3] = 45
+print(data)
