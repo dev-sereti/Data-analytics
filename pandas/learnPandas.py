@@ -25,3 +25,5 @@ data_orders.loc[:, "customer_age"] = (
     .groupby("gender")["customer_age"]
     .transform(lambda s: s.fillna(s.median()))
 )
+
+#
