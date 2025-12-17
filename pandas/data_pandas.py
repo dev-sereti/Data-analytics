@@ -1,5 +1,3 @@
-# import os
-# print(os.getcwd())
 import pandas as pd
 
 # data = pd.read_csv(
