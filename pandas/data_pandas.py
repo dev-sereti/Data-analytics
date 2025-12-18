@@ -13,3 +13,5 @@ data = pd.read_csv(
     r"C:\Users\Kelvin\Documents\Sereti\Data-analytics\pandas\Datasets\Retail Transactions.csv",
     parse_dates = date_cols
     )
+
+# Shape, columns, dtypes
