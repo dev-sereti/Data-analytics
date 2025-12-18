@@ -16,6 +16,6 @@ print(data.columns)
 print(data.dtypes)
 
 #null values
-
+nulls = data.isna().sum().sort(ascending = False)
 
 # df["transaction_id"].nunique(), df["order_id"].nunique(), df["customer_id"].nunique()
