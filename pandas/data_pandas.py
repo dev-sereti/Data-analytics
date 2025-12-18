@@ -22,3 +22,6 @@ nulls = data.isna().sum().sort(ascending = False)
 # Cardinalities for key identifiers
 data["transaction_id"].nunique(), df["order_id"].nunique(), df["customer_id"].nunique()
 
+#Date Ranges
+date_ranges = data["order_date"].min(), data["order_date"].max()
+date_ranges = data["ship_date"].min(), data["ship_date"].max()
