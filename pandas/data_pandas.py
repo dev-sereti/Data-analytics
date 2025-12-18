@@ -14,3 +14,8 @@ print(data.head())
 print(data.shape)
 print(data.columns)
 print(data.dtypes)
+
+#null values
+
+
+# df["transaction_id"].nunique(), df["order_id"].nunique(), df["customer_id"].nunique()
