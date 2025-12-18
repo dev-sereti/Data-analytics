@@ -15,3 +15,5 @@ data = pd.read_csv(
     )
 
 # Shape, columns, dtypes
+
+print(data.columns)
