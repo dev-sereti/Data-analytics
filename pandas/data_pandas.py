@@ -33,6 +33,5 @@ num_cols = ["customer_age","quantity","unit_price","discount_rate","shipping_cos
 to_numeric = ["customer_age","latitude","longitude","quantity","unit_price","discount_rate",
               "shipping_cost","satisfaction_score","loyalty_points","delivery_days"]
 
-for c in to_numeric:
-    if c in data.columns:
-        data[c] = pd.to_numeric(data[c], errors="coerce")
+for non_numeric in to_numeric:
+    data[non_numeric] = pd.to_numeric(data[non_numeric], errors="coerce")
