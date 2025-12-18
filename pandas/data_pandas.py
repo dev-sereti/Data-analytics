@@ -20,4 +20,5 @@ nulls = data.isna().sum().sort(ascending = False)
 
 
 # Cardinalities for key identifiers
-df["transaction_id"].nunique(), df["order_id"].nunique(), df["customer_id"].nunique()
+data["transaction_id"].nunique(), df["order_id"].nunique(), df["customer_id"].nunique()
+
