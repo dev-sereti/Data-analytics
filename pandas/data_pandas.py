@@ -7,3 +7,9 @@ print(data.head())
 date_cols = ["signup_date","last_login","order_date","ship_date"]
 #Boolens 
 bool_cols = ["returned", "is_vip", "duplicate_flag"]
+
+# Load data
+data = pd.read_csv( 
+    r"C:\Users\Kelvin\Documents\Sereti\Data-analytics\pandas\Datasets\Retail Transactions.csv",
+    parse_dates = date_cols
+    )
