@@ -25,3 +25,5 @@ data["transaction_id"].nunique(), df["order_id"].nunique(), df["customer_id"].nu
 #Date Ranges
 date_ranges = data["order_date"].min(), data["order_date"].max()
 date_ranges = data["ship_date"].min(), data["ship_date"].max()
+
+#Numeric Ranges
