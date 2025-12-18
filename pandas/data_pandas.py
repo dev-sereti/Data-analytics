@@ -33,4 +33,6 @@ num_cols = ["customer_age","quantity","unit_price","discount_rate","shipping_cos
 to_numeric = ["customer_age","latitude","longitude","quantity","unit_price",
              "discount_rate","shipping_cost","satisfaction_score","loyalty_points","delivery_days"]
 
-data[num_cols].describe()
+# data[num_cols].describe()
+
+for 
