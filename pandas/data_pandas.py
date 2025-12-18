@@ -35,3 +35,4 @@ to_numeric = ["customer_age","latitude","longitude","quantity","unit_price","dis
 
 for non_numeric in to_numeric:
     data[non_numeric] = pd.to_numeric(data[non_numeric], errors="coerce")
+
