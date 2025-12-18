@@ -16,11 +16,11 @@ print(data.columns)
 print(data.dtypes)
 
 #null values
-nulls = data.isna().sum().sort(ascending = False)
-
+nulls = data.isna().sum().sort_values(ascending=False)
+print(f"\nNulls:\n{nulls}")
 
 # Cardinalities for key identifiers
-data["transaction_id"].nunique(), df["order_id"].nunique(), df["customer_id"].nunique()
+data["transaction_id"].nunique(), data["order_id"].nunique(), data["customer_id"].nunique()
 
 #Date Ranges
 date_ranges = data["order_date"].min(), data["order_date"].max()
@@ -33,3 +33,4 @@ num_cols = ["customer_age","quantity","unit_price","discount_rate","shipping_cos
 to_numeric = ["customer_age","latitude","longitude","quantity","unit_price",
              "discount_rate","shipping_cost","satisfaction_score","loyalty_points","delivery_days"]
 
+data[num_cols].describe()
