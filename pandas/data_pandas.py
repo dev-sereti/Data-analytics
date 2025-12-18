@@ -28,3 +28,5 @@ date_ranges = data["ship_date"].min(), data["ship_date"].max()
 
 #Numeric Ranges
 num_cols = ["customer_age","quantity","unit_price","discount_rate","shipping_cost","satisfaction_score","loyalty_points","delivery_days"]
+
+# Coerce numerics
