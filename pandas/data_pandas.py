@@ -42,7 +42,6 @@ categorical_cols = [ "gender","country","channel","payment_method","currency","p
 for cat in categorical_cols:
     data[cat] = data[cat].astype("category")
 
-
 # Monetary features
 
 data["gross_amount"] = data["quantity"] * data["unit_price"]
