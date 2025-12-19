@@ -36,3 +36,8 @@ to_numeric = ["customer_age","latitude","longitude","quantity","unit_price","dis
 for non_numeric in to_numeric:
     data[non_numeric] = pd.to_numeric(data[non_numeric], errors="coerce")
 
+# Ensure categoricals
+
+categorical_cols = [ "gender","country","channel","payment_method","currency","product_category","promo_code","notes"]
+for cat in categorical_cols:
+    data[cat] = data[cat].astype("category")
