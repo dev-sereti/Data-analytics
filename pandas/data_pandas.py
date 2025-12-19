@@ -8,13 +8,6 @@ date_cols = ["signup_date", "last_login", "order_date", "ship_date"]
 # Load data (only once)
 data = pd.read_csv(path, parse_dates=date_cols)
 
-print(data.head())
-
-# Shape, columns, dtypes
-print(data.shape)
-print(data.columns)
-print(data.dtypes)
-
 #null values
 nulls = data.isna().sum().sort_values(ascending=False)
 print(f"\nNulls:\n{nulls}")
