@@ -44,3 +44,6 @@ for cat in categorical_cols:
 # Monetary features
 data["gross_amount"] = data["quantity"] * data["unit_price"]
 data["discount_amount"] = data["gross_amount"] * data["discount_rate"].clip(lower=0)
+
+#Date features
+data["order_year"] = data["order_date"].dt.year
