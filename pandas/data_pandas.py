@@ -40,3 +40,4 @@ data["discount_amount"] = data["gross_amount"] * data["discount_rate"].clip(lowe
 
 #Date features
 data["order_year"] = data["order_date"].dt.year
+data["order_month"] = data["order_date"].dt.to_period("M").astype
